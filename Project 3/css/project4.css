@@ -1,0 +1,192 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+:root{
+    --navbar-height:59px;
+}
+#logo{
+   margin:15px 15px;
+   border-radius: 20px;
+}
+.img{
+    margin:50px;
+    border-radius: 20px;
+}
+#navbar ul{
+    display:flex;
+    margin:4px;
+    padding:4px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#navbar::before{
+    content: " ";
+    position:absolute;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    z-index: -1;
+}
+ #navbar{
+    position:relative;
+}
+#navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+
+}
+#navbar ul li a{
+    margin:10px;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color:black;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+}
+#home::before{
+    content: " ";
+    position:absolute;
+    height: 70%;
+    width:100%;
+    background:url('../spring-roll.jpg') no-repeat center/cover;
+    z-index: -1;
+    opacity:0.89;
+}
+.Primary{
+    font-size: 3.8rem;
+    padding:12px;
+}
+#home h1{
+    text-align: center;
+    color:white;
+    font-family: 'Unbounded', cursive;
+}
+#home p{
+    text-align: center;
+    color:white;
+    font-size: 1.4rem;
+    font-family: 'Unbounded', cursive;
+}
+.btn{
+    padding:6px 12px;
+    border-radius: 2px solid red;
+    background-image: rgb(58, 229, 212);
+    color:rgb(146, 6, 29);
+    margin:15px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor:pointer;
+}
+.btn:hover{
+    color:brown;
+    background-color: rgb(230, 237, 35);
+}
+#services{
+    margin: 0px;
+    display: flex;
+    /* transform-style: preserve-3d;
+    perspective: 10px; */
+}
+#services.box{
+  border: 6px solid black; 
+  
+}
+.box{
+    
+    margin:0px;
+    padding: 0px;
+    width: 200%;
+    height: 800px;
+    background-image: url(../field-mark.jpg);
+   
+    /* transform: translateZ(-40px) scale(5); */
+    
+}
+.h-primary{
+    font-size: 60x;
+  margin: 40px;
+  padding:30px;
+  text-align: center;
+  justify-content: center;
+}
+.h-secondary{
+    display: block;
+    background-color: rgb(69, 165, 42);
+    margin:10px;
+    padding:0px;
+}
+.box img para{
+    margin:40px;
+    padding:40px;
+}
+#heading{
+    text-align: center;
+    justify-content: center;
+}
+#services-container1{
+    display: flex;
+    color: aliceblue;
+}
+#box1{
+    border: 2px solid red;
+    border-radius: 4px;
+    margin:1px;
+    padding: 1px;
+    width: 35%;
+    height:300px;
+    /* background-image: url(../burger.jpg); */
+    background-image: url("https://source.unsplash.com/1600x900/?burger");
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+
+} 
+#box2{
+     border: 2px solid red;
+     border-radius: 7px;
+    margin:1px;
+    padding: 1px;
+    width: 35%;
+    height:300px;
+    background-image: url("https://source.unsplash.com/1600x900/?pizza");
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    
+}
+#box3{
+    border: 2px solid red;
+    border-radius: 4px;
+    margin:1px;
+    padding: 1px;
+    width: 35%;
+    height:300px;
+    background-image: url("https://source.unsplash.com/1600x900/?curry");
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+
+}
+ .para1{
+   margin: 5px;
+   padding: 20px;
+}
+
